@@ -1,0 +1,46 @@
+name: Sample Project
+version: '1.0'
+description: This is a sample JSON file for testing purposes.
+author:
+  name: John Doe
+  email: john.doe@example.com
+settings:
+  debug: true
+  log_level: INFO
+  output_dir: /path/to/output
+database:
+  host: localhost
+  port: 5432
+  username: dbuser
+  password: dbpassword
+  database_name: testdb
+items:
+  - name: Item 1
+    price: 10.99
+    quantity: 100
+  - name: Item 2
+    price: 19.99
+    quantity: 200
+  - name: Item 3
+    price: 5.49
+    quantity: 300
+features:
+  enable_feature_x: true
+  enable_feature_y: false
+environment:
+  production:
+    url: https://api.production.example.com
+    api_key: prod-123456
+  staging:
+    url: https://api.staging.example.com
+    api_key: stage-123456
+  development:
+    url: http://localhost:8000
+    api_key: dev-123456
+users:
+  - username: alice
+    role: admin
+  - username: bob
+    role: user
+  - username: charlie
+    role: guest

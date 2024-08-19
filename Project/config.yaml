@@ -1,0 +1,5 @@
+servers:
+  - google.com
+  - yahoo.com
+  - apple.com
+interval: 5
